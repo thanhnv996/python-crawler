@@ -1,0 +1,14 @@
+web1 : https://nha.chotot.com/ha-noi/mua-ban-bat-dong-san
+sử dụng requests lấy link từng page > request page-link > get link từng phần tử > request link > beautifulsoup > dataframe > DB
+
+table-structure:
+# index,
+subject: tiêu đề bài viết,
+region_name: tỉnh thành phố,
+area_name: quận - huyện,
+ward_name: xã - phường,
+address: địa chỉ cụ thể,
+phone: số điện thoại,
+price: giá cả,
+price_string: giá cả - chữ,
+body: mô tả chi tiết về bài viết
